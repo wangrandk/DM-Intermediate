@@ -29,6 +29,10 @@
       <Name>T1000 Pacific Region.dsv</Name>
       <FullPath>T1000 Pacific Region.dsv</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Orders.dsv</Name>
+      <FullPath>Orders.dsv</FullPath>
+    </ProjectItem>
   </DataSourceViews>
   <MiningModels>
     <ProjectItem>
@@ -38,6 +42,10 @@
     <ProjectItem>
       <Name>All Regions.dmm</Name>
       <FullPath>All Regions.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Association.dmm</Name>
+      <FullPath>Association.dmm</FullPath>
     </ProjectItem>
   </MiningModels>
   <Configurations>

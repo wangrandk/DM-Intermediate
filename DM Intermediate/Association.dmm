@@ -1,0 +1,357 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cfa21a8d-2e89-4529-be72-00e8c5924dca" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Association</ID>
+  <Name>Association</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_vAssocSeqOrders</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5068" scrolltop="-5031" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="14129" y="14446" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vAssocSeqLineItems" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3873" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000210f0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vAssocSeqLineItems" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vAssocSeqOrders" left="20" top="4702" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3899" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00003b0f0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vAssocSeqOrders" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-80" top="2002" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vAssocSeqLineItems-vAssocSeqOrders]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="319" y="4702" />
+              <point x="319" y="3502" />
+              <point x="306" y="3502" />
+              <point x="306" y="2302" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5068</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5031</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6b01cacd-2062-43c7-ab3e-76b584bfe73e">
+    <DataSourceViewID>Orders</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a2ceaac5-d4b5-4028-861b-fbcf2b6c2285">
+      <ID>Income Group</ID>
+      <Name>Income Group</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b474a03a-a0c5-4fd4-bf42-4f6a677fe8c5">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c72a916-c9fb-47b0-8f9d-d2a3db5d0b02">
+            <TableID>dbo_vAssocSeqOrders</TableID>
+            <ColumnID>IncomeGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="f2a70fa3-336c-4248-8ed2-fac2f7da03e8">
+      <ID>Order Number</ID>
+      <Name>Order Number</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6be190ef-f32e-4e0a-b0fb-aa9df8825518">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dcd0845e-69f0-4a74-a696-89de3a013856">
+            <TableID>dbo_vAssocSeqOrders</TableID>
+            <ColumnID>OrderNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7db0302f-f267-4f4f-a321-b0f28ce8d4f7">
+      <ID>Region</ID>
+      <Name>Region</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f9e942c0-9dd4-46fe-9a41-cdc3259de261">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d900be7-9557-4ab5-b14c-8c7fbd8f74e1">
+            <TableID>dbo_vAssocSeqOrders</TableID>
+            <ColumnID>Region</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="b37a08f7-1e02-48f4-a249-c97935f5a626">
+      <Annotations>
+        <Annotation>
+          <Name>MDXFilterComponent</Name>
+          <Value></Value>
+        </Annotation>
+      </Annotations>
+      <ID>v Assoc Seq Line Items</ID>
+      <Name>v Assoc Seq Line Items</Name>
+      <ForeignKeyColumns>
+        <ForeignKeyColumn dwd:design-time-name="c717b652-5c87-42dd-a5e5-14b19867d55d">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <NullProcessing>Error</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="38f4ec48-4975-4b4e-b7d2-1c907dbebe48">
+            <TableID>dbo_vAssocSeqLineItems</TableID>
+            <ColumnID>OrderNumber</ColumnID>
+          </Source>
+        </ForeignKeyColumn>
+      </ForeignKeyColumns>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a4b6bd74-8ad4-42dc-b0bf-1107300d0af6">
+          <ID>Model</ID>
+          <Name>Model</Name>
+          <IsKey>true</IsKey>
+          <Type>Text</Type>
+          <Content>Key</Content>
+          <KeyColumns>
+            <KeyColumn dwd:design-time-name="565b71f4-66b0-49f1-9092-95cdaf836c83">
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding" dwd:design-time-name="e8f0eaf4-2381-48ec-9ee4-44007786b69c">
+                <TableID>dbo_vAssocSeqLineItems</TableID>
+                <ColumnID>Model</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+      </Columns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="14261a19-e6be-4cec-94f2-741914aee3e2">
+      <ID>Association</ID>
+      <Name>Association</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
+      <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>MINIMUM_PROBABILITY</Name>
+          <Value xsi:type="xsd:double">0.2</Value>
+        </AlgorithmParameter>
+        <AlgorithmParameter>
+          <Name>MINIMUM_SUPPORT</Name>
+          <Value xsi:type="xsd:double">0.01</Value>
+        </AlgorithmParameter>
+      </AlgorithmParameters>
+      <Columns>
+        <Column dwd:design-time-name="9c311f16-50a5-4a34-9ed3-eb3748767378">
+          <ID>Order Number</ID>
+          <Name>Order Number</Name>
+          <SourceColumnID>Order Number</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="42f1d79c-02ad-4424-881b-2cc27ccb89a9">
+          <ID>v Assoc Seq Line Items</ID>
+          <Name>v Assoc Seq Line Items</Name>
+          <SourceColumnID>v Assoc Seq Line Items</SourceColumnID>
+          <Usage>Predict</Usage>
+          <Columns>
+            <Column dwd:design-time-name="2866dbbf-088a-486e-9e04-067a5c949d13">
+              <ID>Model</ID>
+              <Name>Model</Name>
+              <SourceColumnID>Model</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+          </Columns>
+        </Column>
+      </Columns>
+      <AllowDrillThrough>true</AllowDrillThrough>
+    </MiningModel>
+    <MiningModel dwd:design-time-name="d98b456a-0aac-4008-b5c2-597c807fe9b6">
+      <ID>Association Filtered</ID>
+      <Name>Association Filtered</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Microsoft.AnalysisServices.MiningModel</Name>
+          <Value>
+            <Microsoft.AnalysisServices.MiningModel xmlns="">
+              <Filter>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;MiningModelFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Items&gt;
+    &lt;FilterGridItem&gt;
+      &lt;IsGroup&gt;false&lt;/IsGroup&gt;
+      &lt;IsDataTable&gt;false&lt;/IsDataTable&gt;
+      &lt;Operator&gt;=&lt;/Operator&gt;
+      &lt;ColumnName&gt;Income Group&lt;/ColumnName&gt;
+      &lt;ColumnID&gt;Income Group&lt;/ColumnID&gt;
+      &lt;Value&gt;High &lt;/Value&gt;
+      &lt;AndOr&gt;None&lt;/AndOr&gt;
+      &lt;ChildItems /&gt;
+    &lt;/FilterGridItem&gt;
+    &lt;FilterGridItem&gt;
+      &lt;IsGroup&gt;false&lt;/IsGroup&gt;
+      &lt;IsDataTable&gt;false&lt;/IsDataTable&gt;
+      &lt;Operator&gt;=&lt;/Operator&gt;
+      &lt;ColumnName&gt;Income Group&lt;/ColumnName&gt;
+      &lt;ColumnID&gt;Income Group&lt;/ColumnID&gt;
+      &lt;Value&gt;Moderate&lt;/Value&gt;
+      &lt;AndOr&gt;OR&lt;/AndOr&gt;
+      &lt;ChildItems /&gt;
+    &lt;/FilterGridItem&gt;
+    &lt;FilterGridItem&gt;
+      &lt;IsGroup&gt;false&lt;/IsGroup&gt;
+      &lt;IsDataTable&gt;false&lt;/IsDataTable&gt;
+      &lt;Operator&gt;Contains&lt;/Operator&gt;
+      &lt;ColumnName&gt;v Assoc Seq Line Items&lt;/ColumnName&gt;
+      &lt;ColumnID&gt;v Assoc Seq Line Items&lt;/ColumnID&gt;
+      &lt;Value /&gt;
+      &lt;AndOr&gt;AND&lt;/AndOr&gt;
+      &lt;ChildItems&gt;
+        &lt;FilterGridItem&gt;
+          &lt;IsGroup&gt;false&lt;/IsGroup&gt;
+          &lt;IsDataTable&gt;false&lt;/IsDataTable&gt;
+          &lt;Operator&gt;IS NOT NULL&lt;/Operator&gt;
+          &lt;ColumnName&gt;Model&lt;/ColumnName&gt;
+          &lt;ColumnID&gt;Model&lt;/ColumnID&gt;
+          &lt;Value /&gt;
+          &lt;AndOr&gt;None&lt;/AndOr&gt;
+          &lt;ChildItems /&gt;
+        &lt;/FilterGridItem&gt;
+        &lt;FilterGridItem&gt;
+          &lt;IsGroup&gt;false&lt;/IsGroup&gt;
+          &lt;IsDataTable&gt;false&lt;/IsDataTable&gt;
+          &lt;ColumnName /&gt;
+          &lt;AndOr&gt;AND&lt;/AndOr&gt;
+          &lt;ChildItems /&gt;
+        &lt;/FilterGridItem&gt;
+      &lt;/ChildItems&gt;
+    &lt;/FilterGridItem&gt;
+    &lt;FilterGridItem&gt;
+      &lt;IsGroup&gt;false&lt;/IsGroup&gt;
+      &lt;IsDataTable&gt;false&lt;/IsDataTable&gt;
+      &lt;ColumnName /&gt;
+      &lt;AndOr&gt;AND&lt;/AndOr&gt;
+      &lt;ChildItems /&gt;
+    &lt;/FilterGridItem&gt;
+  &lt;/Items&gt;
+&lt;/MiningModelFilter&gt;</Filter>
+            </Microsoft.AnalysisServices.MiningModel>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
+      <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>MINIMUM_SUPPORT</Name>
+          <Value xsi:type="xsd:double">0.01</Value>
+        </AlgorithmParameter>
+      </AlgorithmParameters>
+      <Columns>
+        <Column dwd:design-time-name="a7ab5c2c-5aa0-4119-a824-899d28ace9a2">
+          <ID>Order Number</ID>
+          <Name>Order Number</Name>
+          <SourceColumnID>Order Number</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="0afd3551-2e54-428c-a6e8-3af97802456c">
+          <ID>v Assoc Seq Line Items</ID>
+          <Name>v Assoc Seq Line Items</Name>
+          <SourceColumnID>v Assoc Seq Line Items</SourceColumnID>
+          <Usage>Predict</Usage>
+          <Columns>
+            <Column dwd:design-time-name="da65ff3a-5857-493b-b0df-0ff6a168dab4">
+              <ID>Model</ID>
+              <Name>Model</Name>
+              <SourceColumnID>Model</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+          </Columns>
+        </Column>
+        <Column dwd:design-time-name="589f2518-e289-4a59-8d34-d27ffd350460">
+          <ID>Income Group</ID>
+          <Name>Income Group</Name>
+          <SourceColumnID>Income Group</SourceColumnID>
+        </Column>
+      </Columns>
+      <AllowDrillThrough>true</AllowDrillThrough>
+      <ddl100_100:Filter>[Income Group] = 'High ' OR [Income Group] = 'Moderate' AND  EXISTS (SELECT * FROM [v Assoc Seq Line Items] WHERE  [Model] &lt;&gt; NULL )</ddl100_100:Filter>
+    </MiningModel>
+  </MiningModels>
+</MiningStructure>
