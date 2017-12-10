@@ -17,6 +17,18 @@
       <Name>SalesByRegion.dsv</Name>
       <FullPath>SalesByRegion.dsv</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>NewSalesData.dsv</Name>
+      <FullPath>NewSalesData.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>AllRegions.dsv</Name>
+      <FullPath>AllRegions.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>T1000 Pacific Region.dsv</Name>
+      <FullPath>T1000 Pacific Region.dsv</FullPath>
+    </ProjectItem>
   </DataSourceViews>
   <MiningModels>
     <ProjectItem>

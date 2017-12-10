@@ -1,0 +1,97 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e41d3bcb-9eb3-4ee3-acf6-8cab3902c5f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>AllRegions</ID>
+  <Name>AllRegions</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="381" scrolltop="1257" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="14579" y="18918" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="AllRegions" left="6136" top="5835" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3069" height="6667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000fd0b00000b1a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="AllRegions" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>381</DiagramViewPortLeft>
+            <DiagramViewPortTop>1257</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Adventure Works DW2012</DataSourceID>
+  <Schema>
+    <xs:schema id="AllRegions" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="AllRegions" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="6bf35afb-1231-4799-b888-9776cad7250f">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="AllRegions" msprop:design-time-name="7c3d9f16-a384-46a4-a88d-238e2303eedc" msprop:IsLogical="True" msprop:FriendlyName="AllRegions" msprop:DbTableName="AllRegions" msprop:TableType="View" msprop:Description="Sum and average of sales for all models and regions" msprop:QueryDefinition="SELECT        ReportingDate, SUM(Quantity) AS SumQty, AVG(Quantity) AS AvgQty, SUM(Amount) AS SumAmt, AVG(Amount) AS AvgAmt, 'All Rregions' AS Region&#xD;&#xA;FROM            vTimeSeries&#xD;&#xA;GROUP BY ReportingDate" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ReportingDate" msprop:design-time-name="5c8fb613-5733-4766-a8fb-b5df5cd88f43" msprop:DbColumnName="ReportingDate" msprop:FriendlyName="ReportingDate" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="SumQty" msdata:ReadOnly="true" msprop:design-time-name="6cd9d057-d660-491f-bfdc-f3fc847de7c0" msprop:DbColumnName="SumQty" msprop:FriendlyName="SumQty" type="xs:int" minOccurs="0" />
+                  <xs:element name="AvgQty" msdata:ReadOnly="true" msprop:design-time-name="2942b886-30c4-4023-8f73-0b71507850db" msprop:DbColumnName="AvgQty" msprop:FriendlyName="AvgQty" type="xs:int" minOccurs="0" />
+                  <xs:element name="SumAmt" msdata:ReadOnly="true" msprop:design-time-name="075af999-4bdf-40db-a988-7a139ab74d95" msprop:DbColumnName="SumAmt" msprop:FriendlyName="SumAmt" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="AvgAmt" msdata:ReadOnly="true" msprop:design-time-name="ed3e1294-d6e1-426a-a3d9-e60bd2374260" msprop:DbColumnName="AvgAmt" msprop:FriendlyName="AvgAmt" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Region" msdata:ReadOnly="true" msprop:design-time-name="c9e75315-fdeb-45a6-93c4-0c8e539b8728" msprop:DbColumnName="Region" msprop:FriendlyName="Region" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <AllRegions xmlns="" />
+  </Schema>
+</DataSourceView>
