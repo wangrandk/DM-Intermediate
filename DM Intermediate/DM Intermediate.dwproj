@@ -47,6 +47,10 @@
       <Name>Association.dmm</Name>
       <FullPath>Association.dmm</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Sequence Clustering with Region.dmm</Name>
+      <FullPath>Sequence Clustering with Region.dmm</FullPath>
+    </ProjectItem>
   </MiningModels>
   <Configurations>
     <Configuration>
