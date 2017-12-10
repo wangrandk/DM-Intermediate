@@ -35,6 +35,10 @@
       <Name>Forecasting.dmm</Name>
       <FullPath>Forecasting.dmm</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>All Regions.dmm</Name>
+      <FullPath>All Regions.dmm</FullPath>
+    </ProjectItem>
   </MiningModels>
   <Configurations>
     <Configuration>
