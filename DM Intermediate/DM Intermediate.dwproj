@@ -33,6 +33,10 @@
       <Name>Orders.dsv</Name>
       <FullPath>Orders.dsv</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>CallCenter.dsv</Name>
+      <FullPath>CallCenter.dsv</FullPath>
+    </ProjectItem>
   </DataSourceViews>
   <MiningModels>
     <ProjectItem>
@@ -50,6 +54,10 @@
     <ProjectItem>
       <Name>Sequence Clustering with Region.dmm</Name>
       <FullPath>Sequence Clustering with Region.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Call Center.dmm</Name>
+      <FullPath>Call Center.dmm</FullPath>
     </ProjectItem>
   </MiningModels>
   <Configurations>
