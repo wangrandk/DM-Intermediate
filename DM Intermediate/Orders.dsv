@@ -14,7 +14,6 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
-      <Value></Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
@@ -28,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="9" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2650" scrolltop="-8097" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="15293" y="15875" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2650" scrolltop="-5478" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="15293" y="19050" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -39,7 +38,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vAssocSeqLineItems" left="0" top="185" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3900" height="6615" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vAssocSeqLineItems" left="0" top="4841" logicalid="5" controlid="1" masterid="0" hint1="0" hint2="0" width="3900" height="6615" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c00003c0f0000d7190000" />
                   </control>
@@ -50,7 +49,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vAssocSeqOrders" left="6238" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3873" height="6985" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vAssocSeqOrders" left="6238" top="4656" logicalid="6" controlid="2" masterid="0" hint1="0" hint2="0" width="3873" height="6985" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c0000210f0000491b0000" />
                   </control>
@@ -61,7 +60,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="3600" top="343" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="2938" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3600" top="4999" logicalid="7" controlid="3" masterid="0" hint1="0" hint2="0" width="2938" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -75,11 +74,11 @@
                     </ddsxmlobj>
                   </layoutobject>
                   <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="6238" y="742" />
-                    <point x="3900" y="742" />
+                    <point x="6238" y="5398" />
+                    <point x="3900" y="5398" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Singleton_Multiple_Predictions" left="158" top="-4656" logicalid="8" controlid="5" masterid="0" hint1="0" hint2="0" width="6165" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Singleton_Multiple_Predictions" left="158" top="0" logicalid="8" controlid="4" masterid="0" hint1="0" hint2="0" width="6165" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c000015180000f40d0000" />
                   </control>
@@ -90,12 +89,23 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Bulk Prediction Query using Nested Table Inputs" left="2196" top="-3545" logicalid="10" controlid="6" masterid="0" hint1="0" hint2="0" width="7488" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000401d0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Bulk Prediction Query using Nested Table Inputs" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>-2650</DiagramViewPortLeft>
-            <DiagramViewPortTop>-8097</DiagramViewPortTop>
+            <DiagramViewPortTop>-5478</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -159,7 +169,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="Singleton_Multiple_Predictions" msprop:design-time-name="a2badddf-7a93-45ac-acef-62f2b52f34af" msprop:DbTableName="Singleton_Multiple_Predictions" msprop:FriendlyName="Singleton_Multiple_Predictions" msprop:TableType="Table">
+            <xs:element name="Singleton_Multiple_Predictions" msprop:design-time-name="a2badddf-7a93-45ac-acef-62f2b52f34af" msprop:DbTableName="Singleton_Multiple_Predictions" msprop:TableType="Table" msprop:FriendlyName="Singleton_Multiple_Predictions">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="CustomerKey" msprop:design-time-name="74a364f6-c26a-4185-88d8-e3c0f9344818" type="xs:int" minOccurs="0" />
@@ -168,6 +178,16 @@
                   <xs:element name="Expression._x0024_SUPPORT" msprop:design-time-name="1654be14-7345-42b3-a4f1-a49549252f8c" type="xs:double" minOccurs="0" />
                   <xs:element name="Expression._x0024_PROBABILITY" msprop:design-time-name="0b775e1a-2b74-47d8-9de1-e2b05cbe1327" type="xs:double" minOccurs="0" />
                   <xs:element name="Expression._x0024_ADJUSTEDPROBABILITY" msprop:design-time-name="2d5f2da7-3f14-4453-990f-6d83df3fa2b8" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Bulk_x0020_Prediction_x0020_Query_x0020_using_x0020_Nested_x0020_Table_x0020_Inputs" msprop:design-time-name="e76a2320-1d48-46ea-9aef-841ecad182ff" msprop:DbTableName="Bulk Prediction Query using Nested Table Inputs" msprop:FriendlyName="Bulk Prediction Query using Nested Table Inputs" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CustomerKey" msprop:design-time-name="925c5c97-ab7e-4b76-b415-494fae843a92" type="xs:int" minOccurs="0" />
+                  <xs:element name="Prediction._x0024_SEQUENCE" msprop:design-time-name="9c060e79-e8f1-4eaf-ad46-3620acadb5f3" type="xs:int" minOccurs="0" />
+                  <xs:element name="Prediction.Line_x0020_Number" msprop:design-time-name="ecf0f3f2-af68-4972-a7d7-973747f85fa2" type="xs:long" minOccurs="0" />
+                  <xs:element name="Prediction.Model" msprop:design-time-name="4a3212a2-1aea-443a-aaa1-777038af2000" type="xs:string" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
